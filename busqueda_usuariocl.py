@@ -2,13 +2,13 @@ import tweepy
 from telegram import Bot
 
 # Configuración de las credenciales de Twitter y Telegram
-APP_KEY = 'MWnPKO1b8bHbezTRL5C9NHNbB'
-APP_SECRET = 'z6vMI2uXI8lkEqEliV0hTNtituf1bq5ouXZiZrhEfPfm0RPFdB'
-ACCESS_TOKEN = '1567899448381939713-oDeheDx7kO1ETmHtTVNj42MXKe16hs'
-ACCESS_TOKEN_SECRET = 'jOaapnHDEjXH5sUgOYP54PjqzegzaZfqSCct88BlO1jAY'
-TWITTER_USER_IDS = ['1567899448381939713']  # Agrega aquí los identificadores de los usuarios de Twitter
-TELEGRAM_TOKEN = 'AAHGQGznxgjdh3FuaaRwaCi0y8Sy1wBrEhA'
-TELEGRAM_CHAT_IDS = ['@decimo_executor']  # Agrega aquí los identificadores de los chats de Telegram
+APP_KEY = 'xxxxxxxxxxxxxxxxxx'
+APP_SECRET = 'xxxxxxxxxxxxx'
+ACCESS_TOKEN = 'xxxxxxxxxxxxxx'
+ACCESS_TOKEN_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+TWITTER_USER_IDS = ['xxxxxxxxxxxxxxxxxx']  # Agrega aquí los identificadores de los usuarios de Twitter
+TELEGRAM_TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxx'
+TELEGRAM_CHAT_IDS = ['@xxxxxx']  # Agrega aquí los identificadores de los chats de Telegram
 
 # Configurar la autenticación de Twitter
 auth = tweepy.OAuthHandler(APP_KEY, APP_SECRET)
